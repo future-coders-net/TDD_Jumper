@@ -11,13 +11,16 @@
     <Grid>
         <Viewbox>
             <Canvas Name="Field" Width="600" Height="400">
-                <Image Name="Stickman"
-                       Source="/images/stickman0.png" 
-                       Canvas.Left="20" Canvas.Top="200" />
-                <Rectangle Name="Box" Width="50" Height="200"
-                           Fill="Black"/>
+                <Image Name="Stickman" Source="/images/stickman0.png" 
+                   Canvas.Left="20" Canvas.Top="200" Width="150" Height="200"/>
+                <Rectangle Name="Box" Canvas.Top="300" Fill="Black"
+                           Width="50" Height="200"/>
+                <TextBlock Name="GameOver" Text="GAME OVER" FontSize="50" 
+                           Width="600" Height="100" Visibility="Collapsed"
+                           TextAlignment="Center"/>
             </Canvas>
         </Viewbox>
     </Grid>
+
 
 </Page>
