@@ -131,6 +131,14 @@
     <None Include="TDD_Jumper_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\stickman0.png" />
+    <Content Include="Images\stickman1.png" />
+    <Content Include="Images\stickman2.png" />
+    <Content Include="Images\stickman3.png" />
+    <Content Include="Images\stickman4.png" />
+    <Content Include="Images\stickman5.png" />
+    <Content Include="Images\stickman6.png" />
+    <Content Include="Images\stickman7.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

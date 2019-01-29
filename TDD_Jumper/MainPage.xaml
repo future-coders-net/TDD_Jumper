@@ -9,6 +9,10 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
+        <Canvas Name="Field">
+            <Image Name="Stickman" Source="/images/stickman0.png" 
+                   Canvas.Left="20" Canvas.Top="200" />
+        </Canvas>
 
     </Grid>
 </Page>
